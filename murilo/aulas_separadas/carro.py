@@ -1,0 +1,8 @@
+DIAS_COM_O_CARRO=int(input("dias com o carro"))
+QUANTOS_KM_ELA_RODOU=int(input("km rodados"))
+VALOR_DA_DIARIA=(DIAS_COM_O_CARRO*30)
+VALOR_POR_KM=(QUANTOS_KM_ELA_RODOU*0.01)
+
+VALOR_TOTAL=(VALOR_DA_DIARIA+VALOR_POR_KM)*0.9
+
+print(f"o valor total e{VALOR_TOTAL:.2f}")
